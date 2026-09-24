@@ -19,5 +19,7 @@ namespace billingsystem2
 
        //leave it for tmr 
         public List<InvoiceItem> InvoiceItems { get; set; } = new List<InvoiceItem>();
+        public decimal TotalAmount { get; set; }
+        public int Id { get; set; }
     }
 }
